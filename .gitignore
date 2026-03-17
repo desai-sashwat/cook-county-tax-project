@@ -1,0 +1,19 @@
+# Virtual environment
+.venv/
+
+# Raw data (large parquet files)
+data/raw/
+data/processed/
+
+# Outputs
+outputs/models/
+outputs/figures/
+outputs/reports/
+
+# Jupyter
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
