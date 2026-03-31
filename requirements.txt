@@ -15,6 +15,10 @@ plotly>=5.15
 # Geospatial (optional, for spatial viz)
 geopandas>=0.13
 folium>=0.14
+# Topological Data Analysis (TDA)
+ripser>=0.6
+persim>=0.3
+
 # Utilities
 requests>=2.31
 tqdm>=4.65
