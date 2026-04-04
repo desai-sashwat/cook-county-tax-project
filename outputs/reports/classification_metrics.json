@@ -1,0 +1,7 @@
+{
+  "roc_auc": 0.9999975177754528,
+  "n_homeowners": 672719,
+  "pct_winners": 57.46470666058191,
+  "winner_median_savings": -1655.6608440868433,
+  "loser_median_increase": 2301.7422944406444
+}

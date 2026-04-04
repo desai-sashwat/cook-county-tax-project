@@ -1,0 +1,11 @@
+{
+  "method": "CCAO assessed ratios applied to AVM total values",
+  "land_av_column": "meta_certified_land",
+  "bldg_av_column": "meta_certified_bldg",
+  "median_site_ratio": 0.2080519568151147,
+  "mean_site_ratio": 0.230029766988881,
+  "hedonic_attempted": true,
+  "hedonic_result": "Failed \u2014 site ratio clustered at ~100% due to spatial dominance",
+  "n_properties": 1100150,
+  "n_homeowners": 672719
+}

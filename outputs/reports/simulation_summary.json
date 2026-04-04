@@ -1,0 +1,14 @@
+{
+  "total_properties": 1100150,
+  "total_homeowners": 672719,
+  "total_current_revenue": 10758427651.627869,
+  "scenario_a_rate": 0.07554885,
+  "scenario_b_rate": 0.3178743988298148,
+  "scenario_c_rate": 1.0595813294327159,
+  "scenario_A_pct_homeowners_pay_less": 67.5525739573284,
+  "scenario_A_median_savings": -1.8189894035458565e-12,
+  "scenario_B_pct_homeowners_pay_less": 57.46470666058191,
+  "scenario_B_median_savings": -1655.6608440868433,
+  "scenario_C_pct_homeowners_pay_less": 57.46470666058191,
+  "scenario_C_median_savings": -1655.6608440868433
+}

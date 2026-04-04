@@ -1,0 +1,20 @@
+{
+  "Tier_1_PhysicalplusCoords": {
+    "median_ratio": 1.0,
+    "mean_ratio": 0.9115171846553582,
+    "std_ratio": 0.14911959239862105,
+    "iqr": 0.13365938394788057
+  },
+  "Tier_2_plusProximity": {
+    "median_ratio": 1.0,
+    "mean_ratio": 0.9064760463319466,
+    "std_ratio": 0.1517010888268181,
+    "iqr": 0.1439647284013954
+  },
+  "Tier_3_plusACS_Economic": {
+    "median_ratio": 1.0,
+    "mean_ratio": 0.9072615721734384,
+    "std_ratio": 0.15379419519238252,
+    "iqr": 0.13950756742147896
+  }
+}
