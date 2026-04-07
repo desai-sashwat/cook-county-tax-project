@@ -9,7 +9,5 @@ __pycache__/
 # OS
 .DS_Store
 
-# Large data files
-data/external/
-*.csv
-*.parquet
+# OS
+# (large files tracked via Git LFS)
