@@ -157,7 +157,10 @@ NYC shows ~5× greater H0 max persistence (more fragmented development) and more
 cook-county-tax-shift/
 ├── data/
 │   ├── external/                          # Cross-metro datasets
+│   │   ├── boston_assessment.csv
 │   │   ├── dc_properties.parquet
+│   │   ├── detroit_parcels.csv
+│   │   ├── nyc_pluto.csv
 │   │   └── philadelphia_properties.parquet
 │   ├── processed/                         # Cleaned and engineered data
 │   │   ├── assessment_clean.parquet
@@ -178,7 +181,8 @@ cook-county-tax-shift/
 │   ├── land_value_decomposition.ipynb     # 04 — Decomposition (v3)
 │   ├── tax_shift_sim.ipynb                # 05 — Tax simulation
 │   ├── winner_loser_comparison.ipynb      # 06 — Classification
-│   └── cross_metro_comparison.ipynb       # 07 — Cross-metro + TDA
+│   ├── cross_metro_comparison.ipynb       # 07 — Cross-metro + TDA
+│   └── download_metro_data.py             # Data download script
 ├── outputs/
 │   ├── figures/                           # All visualization outputs
 │   │   ├── 01_*.png                       # EDA figures
@@ -193,6 +197,7 @@ cook-county-tax-shift/
 │   │   ├── lgb_land_model_v2.txt          # Land model v2 (failed)
 │   │   ├── winner_classifier.txt          # Winner/loser classifier
 │   │   ├── xgb_avm_model.joblib           # XGBoost AVM
+│   │   ├── xgb_preprocessor.joblib        # XGBoost preprocessor
 │   │   ├── ridge_avm_model.joblib         # Ridge AVM
 │   │   ├── test_predictions.parquet       # Test set predictions
 │   │   ├── model_comparison.csv           # Model performance comparison
@@ -205,6 +210,10 @@ cook-county-tax-shift/
 │       ├── cross_metro_comparison.csv
 │       ├── topological_features.csv
 │       └── combined_fiscal_topo.csv
+├── reports/                               # Project reports
+│   ├── MATH_7339_Machine_Learning_2_Project_Report.pdf
+│   ├── Revenue-Neutral-Property-Tax-Shift-An-ML-Analysis-of-Site-Value-Taxation-in-US-Metropolitan-Areas.pdf
+│   └── Summary.pdf
 ├── README.md
 ├── requirements.txt
 └── LICENSE
